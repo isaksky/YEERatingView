@@ -20,5 +20,7 @@ A little better than most star rating controls, because it does not remove visua
     // later, when we need the rating:
 
     NSInteger rating = self.ratingView.rating;
+    
+    // If you need to be notified every time the rating changes, you can just KVO observe the @"rating" key.
 }
 ```
